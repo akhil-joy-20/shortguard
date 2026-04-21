@@ -1,0 +1,25 @@
+server:
+  port: <port>
+
+spring:
+  datasource:
+    url: <url>
+    username: <username>
+    password: <pwd>
+
+  jpa:
+    hibernate:
+      ddl-auto: update
+#    show-sql: true
+
+  redis:
+    host: localhost
+    port: 6379
+
+springdoc:
+  swagger-ui:
+    path: /swagger-ui.html #change path if needed
+    enabled: true          # set to false in production
+    operations-sorter: alpha #sort endpoints
+  api-docs:
+    path: /api-docs
