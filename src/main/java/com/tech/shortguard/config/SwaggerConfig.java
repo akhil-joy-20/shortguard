@@ -25,6 +25,6 @@ public class SwaggerConfig {
                                 .name("MIT License")))
                 .externalDocs(new ExternalDocumentation()
                         .description("ShortGuard GitHub Repository")
-                        .url("https://github.com/yourname/shortguard"));
+                        .url("https://github.com/akhil-joy-20/shortguard"));
     }
 }
